@@ -9,9 +9,9 @@ public class DataValidationViewModel : ViewModelBase
 {
     private string? _DataAnnotationsSample;
 
-    [Required]
-    [EmailAddress]
-    [MinLength(5)]
+    // [Required]
+    // [EmailAddress]
+    // [MinLength(5)]
     public string? DataAnnotationsSample
     {
         get => _DataAnnotationsSample;

@@ -142,7 +142,7 @@ namespace ControlCatalog.Desktop
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
-                .WithDataAnnotationsValidation()
+                //.WithDataAnnotationsValidation()
                 .UseWaylandWithFallback()
                 .With(new X11PlatformOptions
                 {
